@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Template</title>
+  <link rel="stylesheet" type="text/css" href="stylesheet/style.css">
+
+</head>
+<body onload="startTime()">
+  <header>
+      <h1>LOLCAT CLOCK</h1>
+  </header>
+
+  <div class="container">
+    <h3>I CAN HAZ TIME??</h3>
+      <!--Javscript Time should be called and placed here-->
+      <div id="clock"></div><!--clock will display here-->
+        <img src="images/cat_gang.png" id="catPics" /><!--main img will display here-->
+
+        <div class="TOD">
+          <div class="selectTime">
+          <label>SET WAKE UP TIME  </label>
+          <select id="dropDown1" onchange="wakeFunction()">
+            <option value="wake">6 AM - 7 AM</option>
+            <option value="wake" >7 AM - 8 AM</option>
+            <option value="wake">8 AM - 9 AM</option>
+            <option value="wake">9 AM - 10 AM</option>
+            <option value="wake">10 AM - 11 AM</option>
+          </select>
+        </div>
+
+        <div class="selectTime">
+          <label>SET LUNCH TIME  </label>
+          <select id="dropDown2" onchange="eatFunciton()">
+            <option value="eating">12 PM - 1 PM</option>
+            <option value="eating">1 PM - 2 PM</option>
+          </select>
+        </div>
+
+        <div class="selectTime" onchange="sleepFunction()">
+          <label>SET NAP TIME  </label>
+            <select id="dropDown3">
+              <option value="eating">1 PM - 2 PM</option>
+              <option value="eating">2 PM - 3 PM</option>
+            </select>
+        </div>
+
+
+        </div><!--end TOD container-->
+
+        <form>
+          <input type="submit" value="PARTY TIME!" id="button" onclick="click()">
+        </form>
+
+  </div><!--end container-->
+
+  <script src="index.js"></script><!--javscript call, placed at the bottom to
+  allow the page to load faster -->
+</body>
+</html>

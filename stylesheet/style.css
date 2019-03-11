@@ -1,0 +1,77 @@
+body{
+  background-color: #43f2C3;
+
+}
+
+.container, h1 {
+  font-family: Comic Sans MS, cursive, sans-serif;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+
+
+}
+
+h1{
+  font-size: 4.0em;
+
+
+}
+
+h3{
+  font-size: 1.3em;
+  font-weight: bolder;
+
+}
+
+#clock{
+  font-size: 3.5em;
+  font-weight: bolder;
+
+}
+
+img, #dropDown{
+  margin: auto;
+  border: 4px #000 solid;
+  max-height: 50%;
+  max-width: 65%;
+
+}
+
+.TOD{
+
+    margin-top: 10px;
+    padding: 5px;
+    position: relative;
+    box-sizing: border-box;
+
+}
+
+select{
+  border-radius: 5px;
+  border: 2px #000 solid;
+  background-color: #7c9e95;
+
+}
+
+select::-ms-expand {/*used to remove orginal button from IE11 - googled this*/
+  display: none;
+
+}
+
+.selectTime{
+  margin: auto;
+  padding: 8px;
+
+}
+
+
+
+form input[type="submit"]{
+  padding: 5px;
+  font: 5px #000;
+  border: 2px #000 double;
+  border-radius: 4px;
+
+}
